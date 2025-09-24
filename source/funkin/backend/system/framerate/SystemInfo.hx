@@ -8,7 +8,7 @@ import android.os.Build.VERSION;
 import funkin.backend.utils.MemoryUtil;
 import funkin.backend.utils.native.HiddenProcess;
 #if cpp
-import cpp.Float64;
+import cpp.Int64;
 import cpp.UInt64;
 #end
 
@@ -130,8 +130,8 @@ class SystemInfo extends FramerateCategory {
 					if (vRAMBytes == 1000 || vRAMBytes == 1 || vRAMBytes <= 0)
 						Logs.trace('Unable to grab GPU VRAM', ERROR, RED);
 					else {
-						var vRAMBytesFloat:#if cpp Float64 #else Float #end = vRAMBytes*1024;
-						vRAM = CoolUtil.getSizeString64(vRAMBytesFloat);
+						var vRAMBytesInt:#if cpp Int64 #else Int #end = vRAMBytes*1024;
+						vRAM = CoolUtil.getSizeString64(vRAMBytesInt);
 					}
 				}
 			} else
@@ -174,7 +174,7 @@ class SystemInfo extends FramerateCategory {
 		super("System Info");
 	}
 
-	public override function __enterFrame(t:Float) {
+	public override function __enterFrame(t:Int) {
 		if (alpha <= 0.05) return;
 
 		_text = __formattedSysText;
