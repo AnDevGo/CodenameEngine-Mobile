@@ -5,7 +5,7 @@
 
 		<!-- OpenFL & Lime (Required for Flixel) -->
 		<git name="openfl" url="https://github.com/CodenameCrew/cne-openfl" />
-		<git name="lime" url="https://github.com/Ajwyunsx/lime" />
+		<git name="lime" url="https://github.com/AnDevGo/lime_pro" />
 
 		<!-- Flixel -->
 		<git name="flixel" url="https://github.com/AnDevGo/cne-flixel" />
@@ -18,7 +18,7 @@
 		<git name="funkin-modchart" url="https://github.com/TheoDevelops/FunkinModchart" ref="f30676579d8de7ccac7d12e13b664e8b2c42c6bf" skipDeps="true" />
 		<lib name="hxvlc" version="1.9.3" skipDeps="true" />
 		
-		<git name="lscript" url="https://github.com/AnDevGo/lscript-cne" skipDeps="true" />
+		<git name="lscript" url="https://github.com/AnDevGo/lscript-cne" ref="86efde2e2b5b41b1df739f1c88fafe9292af0827" skipDeps="true" />
 		<git name="linc_luajit" url="https://github.com/Ajwyunsx/linc_luajit" skipDeps="true" />
 
 		<!-- Documentation and other features -->
