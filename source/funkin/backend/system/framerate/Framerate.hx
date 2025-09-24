@@ -112,8 +112,8 @@ class Framerate extends Sprite {
 	}
 
 
-	var debugAlpha:Float = 0;
-	public override function __enterFrame(t:Float) {
+	var debugAlpha:Int = 0;
+	public override function __enterFrame(t:Int) {
 		alpha = CoolUtil.fpsLerp(alpha, debugMode > 0 ? 1 : 0, 0.5);
 		debugAlpha = CoolUtil.fpsLerp(debugAlpha, debugMode > 1 ? 1 : 0, 0.5);
 		#if android
@@ -166,7 +166,7 @@ class Framerate extends Sprite {
 			#if SHOW_BUILD_ON_FPS codenameBuildField.selectable = #end selectable;
 		}
 
-		var y:Float = height + 4;
+		var y:Int = height + 4;
 		for(c in categories) {
 			c.title.selectable = c.text.selectable = selectable;
 			c.alpha = debugAlpha;
@@ -177,7 +177,7 @@ class Framerate extends Sprite {
 	}
 
 	#if mobile
-	public inline function setScale(?scale:Float){
+	public inline function setScale(?scale:Int){
 		if(scale == null)
 			scale = Math.min(FlxG.stage.window.width / FlxG.width, FlxG.stage.window.height / FlxG.height);
 		scaleX = scaleY = #if android (scale > 1 ? scale : 1) #else (scale < 1 ? scale : 1) #end;
