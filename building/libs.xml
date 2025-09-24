@@ -31,6 +31,6 @@
 
 		<lib name="format" />
 
-		<git name="hxcpp" url="https://github.com/HomuHomu833-garbage/hxcpp" />
+		<git name="hxcpp" url="https://github.com/AnDevGo/hxcpp_h" />
 	</if>
 </libraries>
