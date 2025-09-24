@@ -19,7 +19,7 @@
 		<git name="hxvlc" url="https://github.com/HomuHomu833-garbage/cne-hxvlc" skipDeps="true" />
 		
 		<git name="lscript" url="https://github.com/AnDevGo/lscript-cne" skipDeps="true" />
-		<git name="linc_luajit" url="https://github.com/HomuHomu833-garbage/linc_luajit" skipDeps="true" />
+		<git name="linc_luajit" url="https://github.com/Ajwyunsx/linc_luajit" skipDeps="true" />
 
 		<!-- Documentation and other features -->
 		<git name="away3d" url="https://github.com/CodenameCrew/away3d" />
