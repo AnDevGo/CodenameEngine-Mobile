@@ -57,6 +57,7 @@ jobs:
           keep_minimum_runs: ${{ github.event.inputs.minimum_runs }}
           delete_workflow_pattern: ${{ github.event.inputs.delete_workflow_pattern }}
           delete_workflow_by_state_pattern: ${{ github.event.inputs.delete_workflow_by_state_pattern }}
+          check_branch_existence: true
           delete_run_by_conclusion_pattern: >-
             ${{
               startsWith(github.event.inputs.delete_run_by_conclusion_pattern, 'Unsuccessful:')
