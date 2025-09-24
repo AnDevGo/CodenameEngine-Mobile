@@ -7,7 +7,7 @@ import openfl.text.TextFormat;
 class FramerateCounter extends Sprite {
 	public var fpsNum:TextField;
 	public var fpsLabel:TextField;
-	public var lastFPS:Int = 0;
+	public var lastFPS:Float = 0;
 
 	public function new() {
 		super();
