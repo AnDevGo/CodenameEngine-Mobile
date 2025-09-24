@@ -166,7 +166,7 @@ class Framerate extends Sprite {
 			#if SHOW_BUILD_ON_FPS codenameBuildField.selectable = #end selectable;
 		}
 
-		var y:Int = height + 4;
+		var y:Float = height + 4;
 		for(c in categories) {
 			c.title.selectable = c.text.selectable = selectable;
 			c.alpha = debugAlpha;
