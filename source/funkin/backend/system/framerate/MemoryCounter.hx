@@ -8,8 +8,8 @@ class MemoryCounter extends Sprite {
 	public var memoryText:TextField;
 	public var memoryPeakText:TextField;
 
-	public var memory:Int = 0;
-	public var memoryPeak:Int = 0;
+	public var memory:Float = 0;
+	public var memoryPeak:Float = 0;
 
 	public function new() {
 		super();
