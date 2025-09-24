@@ -133,6 +133,8 @@
 	<haxelib name="away3d" if="THREE_D_SUPPORT" />
 	<haxelib name="format" />
 	<haxelib name="flxanimate" />
+	<haxelib name="linc_luajit" />
+	<haxelib name="lscript" />
 	<haxelib name="nape-haxe4" if="NAPE_ENABLED"/>
 
 	<haxelib name="hscript-improved" />
