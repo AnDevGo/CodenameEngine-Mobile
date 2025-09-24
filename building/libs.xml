@@ -5,7 +5,7 @@
 
 		<!-- OpenFL & Lime (Required for Flixel) -->
 		<git name="openfl" url="https://github.com/HomuHomu833-garbage/cne-openfl" />
-		<git name="lime" url="https://github.com/HomuHomu833-garbage/lime" />
+		<git name="lime" url="https://github.com/QQQEB159/lime" />
 
 		<!-- Flixel -->
 		<git name="flixel" url="https://github.com/HomuHomu833-garbage/cne-flixel" />
@@ -16,7 +16,7 @@
 		<git name="flxanimate" url="https://github.com/CodenameCrew/cne-flxanimate" />
 		<git name="hxdiscord_rpc" url="https://github.com/CodenameCrew/cne-hxdiscord_rpc" skipDeps="true" />
 		<git name="funkin-modchart" url="https://github.com/TheoDevelops/FunkinModchart" ref="f30676579d8de7ccac7d12e13b664e8b2c42c6bf" skipDeps="true" />
-		<git name="hxvlc" url="https://github.com/HomuHomu833-garbage/cne-hxvlc" skipDeps="true" />
+		<git name="hxvlc" version="1.9.3" skipDeps="true" />
 		
 		<git name="lscript" url="https://github.com/AnDevGo/lscript-cne" skipDeps="true" />
 		<git name="linc_luajit" url="https://github.com/Ajwyunsx/linc_luajit" skipDeps="true" />
