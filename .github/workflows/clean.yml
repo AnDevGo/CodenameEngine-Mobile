@@ -21,9 +21,9 @@ jobs:
           keep_minimum_runs: 6
 
       - name: Delete workflow runs for remote repo
-        uses: Mattraks/delete-workflow-runs@v2
+        uses: Mattraks/delete-workflow-runs@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          repository: 'Owner/repository'
+          repository: 'AnDevGo/CodenameEngine-Mobile'
           retain_days: 7
           keep_minimum_runs: 6
